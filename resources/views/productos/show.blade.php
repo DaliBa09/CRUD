@@ -1,0 +1,16 @@
+<x-layouts.app>
+    <table>
+        <thead>
+            <td>Nombre</td>
+            <td>Descripcion</td>
+            <td>Precio</td>
+            <td>Cantidad</td>
+        </thead>
+        <tr>
+            <td>{{$producto->nombre}}</td>
+            <td>{{$producto->descripcion}}</td>
+            <td>{{$producto->precio}}</td>
+            <td>{{$producto->stock}}</td>
+        </tr>
+    </table>
+</x-layouts.app>
